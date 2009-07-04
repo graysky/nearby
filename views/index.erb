@@ -1,0 +1,31 @@
+<html>
+  <head>
+  <title>Nearby</title>
+  
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+  <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key=ABQIAAAA3TJyNtyHXFzfpeoWXERYLRT2yXp_ZAY8_ufC3CFXhHIE1NvwkxTtKvzEUj1LJTyhK6Uk1wMXooEwCw" type="text/javascript"></script>
+  
+  <script type="text/javascript" src="/nearby.js"></script>
+  </head>
+
+<body>
+  
+  <h3>Nearby</h3>
+  
+  <div>
+  <script type="text/javascript">
+  
+  $(document).ready(function() {
+    // Check if location is available
+    detectLocation();
+    return true;
+  });
+  </script>
+  </div>
+  
+  <div id='spinner'>Determining your location...</div>
+  
+  <div id='container'></div>
+  
+</body>
+</html>
