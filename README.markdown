@@ -6,7 +6,7 @@ geolocation (http://dev.w3.org/geo/api/spec-source.html). This will work on desk
 mobile browsers to determine a user's location.
 
 The idea here is for a simple page that determines your location and
-provides 1-click access to local services (weather, human readable location, yelp, starbucks, etc.) either
+provides 1-click access to local services (weather, human readable location, yelp, ATMs, starbucks, etc.) either
 as a link or a mashup using an API.
 
 References
